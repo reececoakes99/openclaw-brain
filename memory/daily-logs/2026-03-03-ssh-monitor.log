@@ -1,0 +1,218 @@
+2026-03-03 10:29:03 UTC [INFO] ============================================================
+2026-03-03 10:29:03 UTC [INFO] security-sshmonitor-v1 starting
+2026-03-03 10:29:03 UTC [INFO] Auth log : /var/log/auth.log
+2026-03-03 10:29:03 UTC [INFO] Log dir  : /home/kali/.openclaw/workspace/memory/daily-logs
+2026-03-03 10:29:03 UTC [INFO] Threshold: 3 failed attempts
+2026-03-03 10:29:03 UTC [INFO] Hours    : 0600–2200 UTC
+2026-03-03 10:29:03 UTC [INFO] Telegram : configured
+2026-03-03 10:29:03 UTC [INFO] ============================================================
+2026-03-03 10:29:03 UTC [INFO] Running self-tests...
+2026-03-03 10:29:03 UTC [INFO]   ✅ PASS [RE_FAILED] match=True expected=True
+2026-03-03 10:29:03 UTC [INFO]   ✅ PASS [RE_ACCEPT] match=True expected=True
+2026-03-03 10:29:03 UTC [INFO]   ✅ PASS [RE_INVALID] match=True expected=True
+2026-03-03 10:29:03 UTC [INFO]   ✅ PASS [RE_FAILED] match=False expected=False
+2026-03-03 10:29:03 UTC [INFO]   ✅ PASS [off-hours] WORK_HOUR_START=6, END=22
+2026-03-03 10:29:03 UTC [INFO]   ✅ PASS [state-load] keys=['known_ips', 'fail_counts', 'alerted_ips', 'file_offset']
+2026-03-03 10:29:03 UTC [INFO] Self-test complete: 6 passed, 0 failed
+2026-03-03 10:29:08 UTC [INFO] ============================================================
+2026-03-03 10:29:08 UTC [INFO] security-sshmonitor-v1 starting
+2026-03-03 10:29:08 UTC [INFO] Auth log : /var/log/auth.log
+2026-03-03 10:29:08 UTC [INFO] Log dir  : /home/kali/.openclaw/workspace/memory/daily-logs
+2026-03-03 10:29:08 UTC [INFO] Threshold: 3 failed attempts
+2026-03-03 10:29:08 UTC [INFO] Hours    : 0600–2200 UTC
+2026-03-03 10:29:08 UTC [INFO] Telegram : configured
+2026-03-03 10:29:08 UTC [INFO] ============================================================
+2026-03-03 10:29:09 UTC [INFO] Telegram [info] sent
+2026-03-03 10:29:09 UTC [ERROR] Auth log not found: /var/log/auth.log
+2026-03-03 10:29:09 UTC [INFO] Single-pass complete.
+2026-03-03 10:29:42 UTC [INFO] ============================================================
+2026-03-03 10:29:42 UTC [INFO] security-sshmonitor-v1 starting
+2026-03-03 10:29:42 UTC [INFO] Auth log : /var/log/auth.log
+2026-03-03 10:29:42 UTC [INFO] Log dir  : /home/kali/.openclaw/workspace/memory/daily-logs
+2026-03-03 10:29:42 UTC [INFO] Threshold: 3 failed attempts
+2026-03-03 10:29:42 UTC [INFO] Hours    : 0600–2200 UTC
+2026-03-03 10:29:42 UTC [INFO] Telegram : configured
+2026-03-03 10:29:42 UTC [INFO] ============================================================
+2026-03-03 10:29:42 UTC [INFO] Running self-tests...
+2026-03-03 10:29:42 UTC [INFO]   ✅ PASS [RE_FAILED] match=True expected=True
+2026-03-03 10:29:42 UTC [INFO]   ✅ PASS [RE_ACCEPT] match=True expected=True
+2026-03-03 10:29:42 UTC [INFO]   ✅ PASS [RE_INVALID] match=True expected=True
+2026-03-03 10:29:42 UTC [INFO]   ✅ PASS [RE_FAILED] match=False expected=False
+2026-03-03 10:29:42 UTC [INFO]   ✅ PASS [off-hours] WORK_HOUR_START=6, END=22
+2026-03-03 10:29:42 UTC [INFO]   ✅ PASS [state-load] keys=['known_ips', 'fail_counts', 'alerted_ips', 'file_offset']
+2026-03-03 10:29:42 UTC [INFO] Self-test complete: 6 passed, 0 failed
+2026-03-03 10:29:45 UTC [INFO] ============================================================
+2026-03-03 10:29:45 UTC [INFO] security-sshmonitor-v1 starting
+2026-03-03 10:29:45 UTC [INFO] Auth log : /var/log/auth.log
+2026-03-03 10:29:45 UTC [INFO] Log dir  : /home/kali/.openclaw/workspace/memory/daily-logs
+2026-03-03 10:29:45 UTC [INFO] Threshold: 3 failed attempts
+2026-03-03 10:29:45 UTC [INFO] Hours    : 0600–2200 UTC
+2026-03-03 10:29:45 UTC [INFO] Telegram : configured
+2026-03-03 10:29:45 UTC [INFO] ============================================================
+2026-03-03 10:29:46 UTC [INFO] Telegram [info] sent
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=oracle           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=oracle           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=sol              | ip=45.148.10.192        | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=postgres         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=paper            | ip=137.74.47.71         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=postgres         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=postgres         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=validator        | ip=45.148.10.192        | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=postgres         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=postgres         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=postgres         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=node             | ip=45.148.10.192        | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=postgres         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=valuationcash    | ip=20.246.132.79        | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=postgres         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=postgres         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=pi               | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=80.94.95.115         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=pi               | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=pi               | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=pi               | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=pi               | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=pi               | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=pi               | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=146.190.169.106      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=146.190.169.106      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=pi               | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=146.190.169.106      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=146.190.169.106      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=pi               | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=2.57.121.112         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=administrator    | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=administrator    | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=administrator    | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=administrator    | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=administrator    | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=administrator    | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=administrator    | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=administrator    | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=administrator    | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=zyq17713         | ip=43.228.157.26        | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ftpuser          | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=mysql            | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=mysql            | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=mysql            | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=mysql            | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=mysql            | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=mysql            | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=mysql            | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=mysql            | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=mysql            | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=user             | ip=2.57.121.25          | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=webmaster        | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=webmaster        | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=webmaster        | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=webmaster        | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=webmaster        | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=webmaster        | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=webmaster        | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=webmaster        | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=webmaster        | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nagios           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nakamoto         | ip=122.166.56.233       | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nagios           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nagios           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=test             | ip=80.94.95.115         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nagios           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nagios           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nagios           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nagios           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nagios           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=nagios           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=tomcat           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=tomcat           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=tomcat           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=tomcat           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=tomcat           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=tomcat           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=admin            | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=tomcat           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=ubuntu           | ip=159.223.7.65         | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=tomcat           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=tomcat           | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=weblogic         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=weblogic         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=weblogic         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=weblogic         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_INVALID_USER     | user=weblogic         | ip=143.110.171.172      | 
+2026-03-03 10:29:46 UTC | SSH_LOGIN_OK         | user=kali             | ip=1.145.60.196         | 
+2026-03-03 10:29:46 UTC [WARNING] NEW IP login: kali@1.145.60.196
+2026-03-03 10:29:47 UTC [INFO] Telegram [warn] sent
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=weblogic         | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=weblogic         | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=weblogic         | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_LOGIN_OK         | user=kali             | ip=1.145.60.196         | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=weblogic         | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=git              | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=git              | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=wfi              | ip=43.228.157.26        | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=git              | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=git              | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=git              | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=git              | ip=143.110.171.172      | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=solana           | ip=45.148.10.192        | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=sol              | ip=45.148.10.192        | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=validator        | ip=45.148.10.192        | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=node             | ip=45.148.10.192        | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=2.57.121.112         | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=34.53.214.85         | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=solana           | ip=80.94.92.168         | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=2.57.121.25          | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=admin            | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=test             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=test             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=test             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=test             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=test             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=test             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=test             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=test             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=test             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=user             | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=ubuntu           | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC | SSH_INVALID_USER     | user=ubuntu           | ip=209.97.143.165       | 
+2026-03-03 10:29:47 UTC [INFO] Single-pass complete.
