@@ -9,16 +9,27 @@ _(none)_
 _(none)_
 
 ## MEDIUM
-- [ ] Fill USER.md with Operator profile (name, timezone, preferences)
-- [ ] Investigate `openclaw-brain-sync.service` — confirm intent, disable if not needed
+- [ ] Build TTP library skeleton in memory/methodologies/
+- [ ] Populate memory/meta-knowledge.md baseline
+- [ ] Skill inventory audit — identify gaps vs Operator domain needs
 
 ## LOW
-- [ ] Build out TTP library in memory/methodologies/
-- [ ] Populate memory/meta-knowledge.md baseline
-- [ ] Skill inventory — list available skills, identify gaps
+- [ ] Deploy security-sshmonitor-v1 as persistent systemd service
+- [ ] Build next skill (pending Operator direction)
+
+## Resolved / Notes
+- ✅ `openclaw-brain-sync.service` — intentional, keep running (confirmed by Operator 2026-03-03)
+- ✅ USER.md — populated with Operator profile (Reece, UTC, red team)
+- ✅ automation-git-memory-v1 — PRODUCTION, Telegram wired
+- ✅ security-sshmonitor-v1 — STAGING, Telegram wired, journald mode
 
 ## Skill Development Queue
-_(none yet — pending initial tasking)_
+- [ ] recon-portscan-v1
+- [ ] web-crawl-v1
+- [ ] osint-whois-v1
 
 ## Completed
-_(none yet)_
+- [x] Initialize skills-repo (2026-03-03)
+- [x] Build automation-git-memory-v1 (2026-03-03)
+- [x] Build security-sshmonitor-v1 (2026-03-03)
+- [x] Wire Telegram credentials to skills (2026-03-03)
