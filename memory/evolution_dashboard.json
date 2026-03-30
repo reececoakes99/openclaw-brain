@@ -1,0 +1,19 @@
+{
+  "protocol": "SIP-3.0",
+  "cycle_count": 1,
+  "metrics": {
+    "avg_mttr": 45,
+    "mif_total": 1,
+    "failure_count": 0,
+    "automation_coverage": 10.0
+  },
+  "history": [
+    {
+      "cycle": 1,
+      "task": "save_protocol",
+      "tier": 1,
+      "outcome": "completed",
+      "mttr": 45
+    }
+  ]
+}
