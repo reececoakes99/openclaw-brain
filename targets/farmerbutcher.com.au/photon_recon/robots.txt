@@ -1,0 +1,6 @@
+https://farmerbutcher.com.au/wp-content/uploads/woocommerce_uploads/
+https://farmerbutcher.com.au/wp-content/uploads/woocommerce_transient_files/
+https://farmerbutcher.com.au/wp-admin/
+https://farmerbutcher.com.au/wp-content/uploads/wc-logs/
+https://farmerbutcher.com.au/wp-admin/admin-ajax.php
+https://farmerbutcher.com.au/wp-content/uploads/wpo/wpo-plugins-tables-list.json

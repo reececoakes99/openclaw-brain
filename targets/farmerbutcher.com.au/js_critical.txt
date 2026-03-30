@@ -1,0 +1,3 @@
+https://farmerbutcher.com.au/.well-known/ai-plugin.json
+https://farmerbutcher.com.au/.well-known/assetlinks.json
+https://farmerbutcher.com.au/.well-known/gpc.json
