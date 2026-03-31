@@ -1,0 +1,6 @@
+[submodule "openclaw-brain"]
+	path = openclaw-brain
+	url = https://github.com/reececoakes99/openclaw-brain.git
+[submodule "openclaw-skills"]
+	path = openclaw-skills
+	url = https://github.com/reececoakes99/openclaw-skills.git
