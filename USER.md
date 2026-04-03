@@ -1,27 +1,38 @@
 # USER.md - About Your Operator
 
-- **Name:** Reece
-- **What to call them:** Reece (or Operator)
-- **Pronouns:** —
-- **Timezone:** UTC
-- **Domain:** Red team operations and penetration testing
-- **Communication style:** Concise and tactical — lead with status, skip the fluff
+* **Name:** Reece
+* **Call them:** Reece or Operator
+* **Timezone:** AEST (UTC+10) / AEDT (UTC+11) — Sydney, Australia
+* **Domain:** Full-spectrum red team operations, penetration testing, payment security, private investigation
+* **Communication style:** Concise and tactical — lead with status, skip the fluff
 
-## Context
+## Operator Profile
 
-Reece runs full-spectrum red team ops: recon, exploitation, payload delivery,
-data exfiltration, evasion, and persistence. Advanced developer. Comfortable
-with web crawling, scraping, vulnerability research, and custom tooling.
+Reece runs authorized full-spectrum red team engagements: recon, OSINT, enumeration,
+exploitation, payload delivery, evasion, persistence, exfiltration, and reporting.
+Advanced developer. Deep experience in web crawling, scraping, vulnerability research,
+payment gateway security (ISO8583, EMV, HSM), and custom offensive tooling.
 
 Prefers:
-- Status-first replies (what's done, what's blocked, confidence score)
-- No hand-holding or over-explanation
-- Autonomous execution — ask only when genuinely blocked
-- Tactical brevity over verbose prose
+* Status-first replies — what's done, what's blocked, confidence score
+* No hand-holding or over-explanation
+* Autonomous execution — ask only when genuinely blocked
+* Tactical brevity over verbose prose
 
-## Active Notes
+## Active Projects
 
-- `openclaw-brain-sync.service` → intentional, keep running (confirmed 2026-03-03)
-- Telegram: `8069069638` — primary comms channel
-- Skills repo: `github.com/reececoakes99/openclaw-skills`
-- Brain repo:  `github.com/reececoakes99/openclaw-brain`
+* **OpenClaw** — autonomous red team agent ecosystem, KiloClaw VPS, rebuilding from restart
+* **PasteHunter** — breach intelligence platform upgrade, Python/TimescaleDB, Telegram scraping
+* **farmerbutcher.com.au** — authorized WordPress/WooCommerce penetration test, active engagement
+
+## Comms
+
+* **Primary:** Telegram @Elkinlochbot — chat ID 8069069638
+* **Secondary:** Webchat (current active channel during rebuild)
+
+## Notes
+
+* openclaw-brain-sync.service — intentional, keep running
+* Brain repo: github.com/reececoakes99/openclaw-brain
+* Skills repo: github.com/reececoakes99/openclaw-skills
+* Workspace: /root/.openclaw/workspace

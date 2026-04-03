@@ -1,40 +1,56 @@
-# TOOLS.md - Local Notes
+# TOOLS.md - Environment Specifics
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+Skills define how tools work. This file is Elkin's infrastructure cheat sheet —
+specifics unique to this deployment that don't belong in shared skill files.
 
-## What Goes Here
+## KiloClaw Environment
 
-Things like:
+* **Platform:** KiloClaw (Fly.io isolated single-tenant machine)
+* **OS:** Debian Bookworm (slim)
+* **Volume mount:** /root — backed by snapshots, install dependencies here
+* **Workspace:** /root/.openclaw/workspace
+* **Kilo CLI:** kilo — interactive: kilo / autonomous: kilo run --auto "task"
+* **Config:** /root/.config/kilo/opencode.json
+* **Do not modify:** /root/.kilo
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+## Gateway
 
-## Examples
+* **Port:** 18789 — loopback only, never expose to public internet
+* **Process manager:** supervisor
 
-```markdown
-### Cameras
+## Networking
 
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
+* **Tailscale IP:** 100.84.143.47
 
-### SSH
+## Telegram
 
-- home-server → 192.168.1.100, user: admin
+* **Bot handle:** @Elkinlochbot
+* **Operator chat ID:** 8069069638
+* **Pending alerts path:** ~/.openclaw/alerts/pending/ — retry every 5 min if unreachable
 
-### TTS
+## Git Identity
 
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
+* **Username:** reececoakes99
+* **Email:** reececoakes99@users.noreply.github.com
 
-## Why Separate?
+## Reference Repositories (submodules)
 
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+* **PayloadsAllTheThings:** openclaw-skills/repos/PayloadsAllTheThings/
+* **SecLists:** openclaw-skills/repos/SecLists/
 
----
+## API
 
-Add whatever helps you do your job. This is your cheat sheet.
+* **Primary model:** anthropic/claude-sonnet-4-6
+* **Fallback 1:** openrouter/anthropic/claude-sonnet-4-6
+* **Fallback 2:** openrouter/meta-llama/llama-3.3-70b-instruct
+* **Spend cap:** $10 per 24-hour period — hard limit
+
+## Pipeline
+
+* **Repo:** openclaw-pipeline
+* **Invoke:** python master_pipeline.py -t <target> --config engagement_config.json
+* **Env vars required:** GITHUB_PAT, TELEGRAM_BOT_TOKEN
+
+## Stale Connections Removed
+
+* Previous OpenClaw instance disconnected — no longer active on this repo
