@@ -4,3 +4,6 @@
 [submodule "openclaw-skills"]
 	path = openclaw-skills
 	url = https://github.com/reececoakes99/openclaw-skills.git
+[submodule "openclaw-pipeline"]
+	path = openclaw-pipeline
+	url = https://github.com/reececoakes99/openclaw-pipeline.git
